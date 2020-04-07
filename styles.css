@@ -1,0 +1,34 @@
+* {
+	margin: 0px;
+	transition: all 5s ease;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+body {
+	background: #FEAC5E;   fallback for old browsers 
+	background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.buttons {
+	margin: 50px;
+
+	text-align: center;
+}
+
+.style {
+	text-align: center;
+	color: #ffffff;
+	margin-top: 50px;
+}
+
+.myContainer, .colors {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
