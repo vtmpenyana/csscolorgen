@@ -1,6 +1,6 @@
 * {
 	margin: 0px;
-	transition: all 5s ease;
+	transition: all 0.5s ease;
 	font-family: 'Baloo Paaji 2', cursive;
 }
 
@@ -8,6 +8,11 @@ body {
 	background: #FEAC5E;   fallback for old browsers 
 	background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#slogan {
+	text-align: center;
+	margin: 5px;
 }
 
 
@@ -31,4 +36,25 @@ body {
 h1 {
 	text-transform: uppercase;
 	color: #FFFFFF;
+	font-size: 4rem;
 }
+
+
+@media (max-width: 575.98px) { 
+	h1 {
+		font-size: 2rem;
+	}
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+	h1 {
+		font-size: 4rem!important;
+	}
+ }
